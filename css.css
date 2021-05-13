@@ -2,13 +2,19 @@
 body{
        background-color: black;
 
-
+       
 
 }
 img{
     width: max-content;
 
-    padding-left: 400px;
+    padding-left: 500px;
    
-    border-radius: 50%;
+    border-radius: 40%;
+}
+
+h1{
+    text-decoration-color: blue;
+    color: white;
+    text-align: center;
 }
