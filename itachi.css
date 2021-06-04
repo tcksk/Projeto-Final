@@ -22,13 +22,16 @@ h2 {
     text-align: auto;
     font-family: impact, fantasy;
 }
+p {
+    color: white;
+    font-family: impact, fantasy;
+}
 
 .zoom{
      overflow: hidden;
      max-width: 736px;
-     width: 60%;
-     margin-left: auto;
-     margin-right: auto;
+     width: 30%;
+  
 
 }
 
@@ -40,3 +43,7 @@ h2 {
 .zoom img:hover{
                     transform:scale(1.1);
                 }
+                
+section {display: flex;flex-wrap: wrap;justify-content: space-evenly;}
+
+.text {width: 50%;}
