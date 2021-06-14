@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+
+
+}
+img{
+ 
+
+ border-radius: 50%;
+}
+
+h1{
+ 
+ color: white;
+ text-align: center;
+ font-family: impact, fantasy;
+}
+
+h2 { 
+    color: white;
+    text-align: auto;
+    font-family: impact, fantasy;
+}
+
+p {
+    color: white;
+    font-family: impact, fantasy;
+}
+
+.zoom{
+     overflow: hidden;
+     max-width: 736px;
+     width: 30%;
+}
+
+.zoom img{
+              max-width: 100%;
+              transition: all 0.5s;    
+         }
+
+.zoom img:hover{
+                    transform:scale(1.1);
+                }
+                
+section {display: flex;flex-wrap: wrap;justify-content: space-evenly;}
+
+.text {width: 30%;}

@@ -1,13 +1,12 @@
 body{
     background-color: black;
 
-    
 
 }
 img{
  
 
- border-radius: 30%;
+ border-radius: 50%;
 }
 
 h1{
@@ -22,6 +21,7 @@ h2 {
     text-align: auto;
     font-family: impact, fantasy;
 }
+
 p {
     color: white;
     font-family: impact, fantasy;
@@ -31,8 +31,6 @@ p {
      overflow: hidden;
      max-width: 736px;
      width: 30%;
-  
-
 }
 
 .zoom img{
@@ -46,4 +44,4 @@ p {
                 
 section {display: flex;flex-wrap: wrap;justify-content: space-evenly;}
 
-.text {width: 50%;}
+.text {width: 30%;}
